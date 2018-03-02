@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    normalize.css removes cross-browser differences in defaults, e.g.,
+    differences in how form elements appear between Firefox and IE
+    See: http://necolas.github.com/normalize.css/
+  -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <!--
+    application.css is where you put your styles
+  -->
+  <link rel="stylesheet" href="./css/application.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="./js/mousetrap.js"></script>
+  <script src="./js/underscore.js"></script>
+  <script src="./js/game.js"></script>
+  <script src="./js/gameView.js"></script>
+  <script src="./js/gameController.js"></script>
+  <script src="./js/application.js"></script>
+
+  <title>256!</title>
+</head>
+<body>
+  <h1>Let's Play 256!</h1>
+  <div id="game">
+    <ul id="rows">
+      <li class="row" id="row-1">
+        <ul class="row-cells">
+          <li class="cell">0</li>
+          <li class="cell">1</li>
+          <li class="cell">2</li>
+          <li class="cell">3</li>
+        </ul>
+      </li>
+      <li class="row" id="row-2">
+        <ul class="row-cells">
+          <li class="cell">4</li>
+          <li class="cell">5</li>
+          <li class="cell">6</li>
+          <li class="cell">7</li>
+        </ul>
+      </li>
+      <li class="row" id="row-3">
+        <ul class="row-cells">
+          <li class="cell">8</li>
+          <li class="cell">9</li>
+          <li class="cell">10</li>
+          <li class="cell">11</li>
+        </ul>
+      </li>
+      <li class="row" id="row-4">
+        <ul class="row-cells">
+          <li class="cell">12</li>
+          <li class="cell">13</li>
+          <li class="cell">14</li>
+          <li class="cell">15</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>
